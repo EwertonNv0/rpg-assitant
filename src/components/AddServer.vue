@@ -5,13 +5,10 @@ export default {
 </script>
 
 <template>
-    <a href="https://www.google.com/" target="_blank"><button>Adicione ao seu <br/> Servidor</button></a>
+    <a href="https://www.google.com/" target="_blank"><button>Adicione ao seu <br/> Servidor.</button></a>
 </template>
 
 <style scoped>
-a {
-    text-decoration: none;
-}
 button {
     background: linear-gradient(-45deg, #be302c, #370e0c, #22060a, #eb220e);
     background-size: 800% 400%;
