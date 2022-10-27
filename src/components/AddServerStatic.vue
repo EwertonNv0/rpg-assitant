@@ -14,11 +14,9 @@ export default {
 </template>
 
 <style scoped>
-a {
-    text-decoration: none;
-}
 button {
     background: linear-gradient(-45deg, #be302c, #370e0c, #22060a, #eb220e);
+    box-shadow: 0 0 10px 1px #eb220e70;
     background-size: 800% 400%;
     padding: .8em 2em;
     display: inline-flex;
