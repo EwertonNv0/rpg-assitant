@@ -2,10 +2,13 @@
 import AddServer from './components/AddServer.vue';
 import AddServerStatic from './components/AddServerStatic.vue';
 import IniLogo from './components/IniLogo.vue';
+import ScrollDown from './components/ScrollDown.vue';
+import RollHints from './components/RollHints.vue';
+import IniHints from './components/IniHints.vue';
 
 export default {
   name: "App",
-  components: { IniLogo, AddServer, AddServerStatic }
+  components: { IniLogo, AddServer, AddServerStatic, ScrollDown, RollHints, IniHints }
 }
 </script>
 
@@ -22,55 +25,87 @@ export default {
   </header>
 
   <section>
-    <div id="content">
-      <h1 class="title">
-        Tenha <span>mais agilidade</span> durante seus <span>combates!</span>
-      </h1>
-      <div class="add-button">
-        <AddServerStatic />
+    <article>
+      <div id="content">
+        <div class="destaque">
+          <h1 class="title">
+            Tenha <span>mais agilidade</span> durante seus <span>combates!</span>
+          </h1>
+          <p>
+            Deixe seus combates mais dinâmicos e organizados!
+          </p>
+          <div class="add-button">
+            <AddServerStatic />
+          </div>
+        </div>
       </div>
-      <div class="explain-container">
-        <h1>
-          &emsp;Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, no momento conta com apenas essas funções mas olha só, um spoiler, enquanto você lê isso outras funções estão sendo desenvolvidas, acompanhe nosso Instagram para não perder nenhuma novidade.
-        </h1>
-        <h2>
-          &emsp;Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato em um dos canais mencionados acima.
-        </h2>
+      <div class="scroll-icon-container">
+        <ScrollDown />
       </div>
-    </div>
+    </article>
+  </section>
+
+  <section>
+    <RollHints />
+  </section>
+
+  <section>
+    <IniHints />
   </section>
 </template>
 
 <style scoped>
-#top-bar{
+span {
+  color: #eb220e;
+}
+
+#top-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1000;
+  background-color: #191C27;
+  box-shadow: 0 0 15px 5px #191C27;
+  top: 0;
+  width: 100%;
 }
-.logo-container{
+
+.logo-container {
   padding: 20px 10px;
 }
+
 .logo {
   width: 5rem;
 }
-#content{
+
+#content {
   padding: 10px;
   color: white;
   font-family: 'Roboto';
+  padding-top: 12rem;
 }
-.title{
+
+.title {
   font-size: 2.5rem;
   text-align: center;
 }
-.add-button{
+
+.destaque p {
+  text-align: center;
+  padding: 2rem 0;
+  color: #EEEEEE99;
+}
+
+.add-button {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
 }
-.explain-container{
-  margin-top: 3rem;
-}
-span{
-  color: #eb220e;
+
+.scroll-icon-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
 }
 </style>
