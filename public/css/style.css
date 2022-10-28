@@ -140,6 +140,19 @@ code {
 	--snow: #EEEEEE
 }
 
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #eb220e;
+	border-radius: 30px;
+}
+
 body{
     font-family: 'Roboto';
 	color: var(--snow);
@@ -181,4 +194,8 @@ p {
 
 .article div{
     margin: 1rem 0;
+}
+
+.article h2 {
+	line-height: 2rem;
 }
