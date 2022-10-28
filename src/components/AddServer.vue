@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <a href="https://www.google.com/" target="_blank"><button>Adicione ao seu <br/> Servidor.</button></a>
+    <a href="https://discord.com/oauth2/authorize?client_id=802981982460051496&permissions=0&scope=bot" target="_blank"><button>Adicione ao seu <br/> Servidor.</button></a>
 </template>
 
 <style scoped>
