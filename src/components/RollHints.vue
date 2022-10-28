@@ -5,8 +5,12 @@ export default {
 </script>
 
 <template>
-    <article>
-        <h1><span>#</span> Rolagem de dados</h1>
+    <article class="article">
+        <div>
+            <h1>
+                <span>#</span> Rolagem de dados
+            </h1>
+        </div>
         <div class="important-container">
             <h2 class="important">Pontos Importantes:</h2>
             <ul>
