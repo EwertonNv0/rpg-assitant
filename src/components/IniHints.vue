@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <article>
+    <article class="article">
         <div>
             <h1>
                 <span>#</span> Iniciativa
@@ -85,29 +85,12 @@ span {
   color: #eb220e;
 }
 
-i {
-    font-size: .8rem;
-    color: #eb220e;
-}
-
 ul {
     list-style: disc;
-}
-
-article div{
-    margin: 1rem 0;
 }
 .recuo{
     border-left: 2px solid #eb220e;
     margin-left: 1.3rem;
     padding-left: .5rem;
-}
-
-.extra{
-    background-color: #262A3B;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 10px;
-    margin: 1rem .5rem;
 }
 </style>
