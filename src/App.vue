@@ -5,10 +5,12 @@ import IniLogo from './components/IniLogo.vue';
 import ScrollDown from './components/ScrollDown.vue';
 import RollHints from './components/RollHints.vue';
 import IniHints from './components/IniHints.vue';
+import DamageHint from './components/DamageHint.vue';
+import GridHints from './components/GridHints.vue';
 
 export default {
   name: "App",
-  components: { IniLogo, AddServer, AddServerStatic, ScrollDown, RollHints, IniHints }
+  components: { IniLogo, AddServer, AddServerStatic, ScrollDown, RollHints, IniHints, DamageHint, GridHints }
 }
 </script>
 
@@ -45,18 +47,39 @@ export default {
     </article>
   </section>
 
-  <section>
+  <section id="tutorial">
+    <div class="space"></div>
+  </section>
+
+  <section class="section">
     <RollHints />
   </section>
 
-  <section>
+  <section class="section">
     <IniHints />
   </section>
+
+  <section class="section">
+    <DamageHint />
+  </section>
+
+  <section class="section">
+    <GridHints />
+  </section>
+
+  <footer>
+    
+  </footer>
 </template>
 
 <style scoped>
 span {
   color: #eb220e;
+}
+
+.space {
+  margin: 7rem 1rem;
+  border: 1px solid #eb220e90;
 }
 
 #top-bar {
@@ -83,7 +106,7 @@ span {
   padding: 10px;
   color: white;
   font-family: 'Roboto';
-  padding-top: 12rem;
+  padding-top: 10rem;
 }
 
 .title {
@@ -102,10 +125,10 @@ span {
   justify-content: center;
 }
 
-.scroll-icon-container{
+.scroll-icon-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 </style>
