@@ -6,7 +6,7 @@ export default {
 
 <template>
     <article>
-        <h1># Rolagem de dados</h1>
+        <h1><span>#</span> Rolagem de dados</h1>
         <div class="important-container">
             <h2 class="important">Pontos Importantes:</h2>
             <ul>
