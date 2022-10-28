@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <a href="https://www.google.com/" target="_blank">
+    <a href="https://discord.com/oauth2/authorize?client_id=802981982460051496&permissions=0&scope=bot" target="_blank">
         <button>
             <img src="../assets/bad-cat.png" alt="bad cat" id="bad-cat">
             Adicione ao seu Servidor.
