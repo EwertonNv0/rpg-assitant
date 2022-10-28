@@ -30,7 +30,7 @@ export default {
 
         <div>
             <p class="extra">
-                <strong class="attention">Atenção:</strong> Assim como a iniciativa, cada canal tem seu proprio grid, iniciar um grid <strong>apaga imediatamente</strong> o anterior.
+                <strong class="attention">Atenção:</strong> Assim como a iniciativa, cada canal tem seu proprio grid, iniciar um grid <strong>apaga imediatamente</strong> o grid anterior.
             </p>
         </div>
 
