@@ -51,24 +51,26 @@ export default {
     <div class="space"></div>
   </section>
 
-  <section class="section">
-    <RollHints />
-  </section>
+  <div id="sections">
+    <section class="section">
+      <RollHints />
+    </section>
 
-  <section class="section">
-    <IniHints />
-  </section>
+    <section class="section">
+      <IniHints />
+    </section>
 
-  <section class="section">
-    <DamageHint />
-  </section>
+    <section class="section">
+      <DamageHint />
+    </section>
 
-  <section class="section">
-    <GridHints />
-  </section>
+    <section class="section">
+      <GridHints />
+    </section>
+  </div>
 
   <footer>
-    
+
   </footer>
 </template>
 
@@ -130,5 +132,31 @@ span {
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
+}
+
+@media only screen and (min-width: 900px) {
+  #sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 4%;
+  }
+
+  #sections section {
+    margin: 0 1.5rem;
+    padding: 0 2rem;
+  }
+
+  .title {
+    padding: 0 30%;
+  }
+
+  .destaque p {
+    margin: 2% 0;
+  }
+
+  .space {
+    border: 1px solid transparent;
+  }
 }
 </style>
