@@ -47,17 +47,20 @@ export default {
                 <p>&emsp;Os detalhes a seguir se aplicam a jogadores e npcs.</p>
                 <div class="recuo display-flex">
                     <div>
-                        <h3>Modificador positivo:</h3>
+                        <h3>
+                            <i class="fa-solid fa-dice-d6"></i> Modificador positivo:
+                        </h3>
                         <p>
-                            &emsp;Caso seu personagem possua algum bônus de iniciativa, utilize o bônus após o ini. Ex:
-                            <code>ini +5</code>.
+                            &emsp;Caso seu personagem possua algum bônus de iniciativa, utilize o bônus após o ini. Ex: <code>ini +5</code>.
                         </p>
                         <div>
                             <img src="../assets/imgs-ini/ini+.png" alt="">
                         </div>
                     </div>
                     <div>
-                        <h3>Modificador negativo:</h3>
+                        <h3>
+                            <i class="fa-solid fa-dice-d6"></i> Modificador negativo:
+                        </h3>
                         <p>
                             &emsp;Caso seu modificador de iniciativa seja negativo, utilize o sinal de <code>-</code> após o
                             ini. Ex: <code>ini -5</code>.
@@ -74,7 +77,7 @@ export default {
                     &emsp;Para usar um valor pré-definido de iniciativa ao invés de uma rolagem, baste inserir o valor entre
                     <code>()</code>. Ex: <code>ini (15)</code>.
                 </p>
-                <div>
+                <div class="pre-def-value">
                     <img src="../assets/imgs-ini/ini().png" alt="">
                 </div>
                 <p>
@@ -158,6 +161,10 @@ ul {
 
     .exemples div {
         padding: 0 1rem;
+    }
+
+    .pre-def-value img {
+        width: 60%;
     }
 }
 </style>
