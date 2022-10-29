@@ -194,7 +194,7 @@ p {
 	margin: 1rem .5rem;
 }
 
-.fa-dice-d20 {
+.fa-dice-d20, .fa-dice-d6 {
 	font-size: .8rem;
 	color: #eb220e;
 }
