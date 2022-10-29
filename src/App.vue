@@ -53,19 +53,19 @@ export default {
   </section>
 
   <div id="sections">
-    <section class="section">
+    <section class="section roll">
       <RollHints />
     </section>
 
-    <section class="section">
+    <section class="section ini">
       <IniHints />
     </section>
 
-    <section class="section">
+    <section class="section dmg">
       <DamageHint />
     </section>
 
-    <section class="section">
+    <section class="section grid">
       <GridHints />
     </section>
   </div>
@@ -140,15 +140,14 @@ span {
 }
 
 @media only screen and (min-width: 900px) {
-  #sections {
+  .tutorial-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 4%;
   }
 
   #sections section {
-    margin: 0 1.5rem;
+    margin: 10rem 1.5rem;
     padding: 0 2rem;
   }
 
