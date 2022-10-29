@@ -7,10 +7,11 @@ import RollHints from './components/RollHints.vue';
 import IniHints from './components/IniHints.vue';
 import DamageHint from './components/DamageHint.vue';
 import GridHints from './components/GridHints.vue';
+import FooterBox from './components/FooterBox.vue';
 
 export default {
   name: "App",
-  components: { IniLogo, AddServer, AddServerStatic, ScrollDown, RollHints, IniHints, DamageHint, GridHints }
+  components: { IniLogo, AddServer, AddServerStatic, ScrollDown, RollHints, IniHints, DamageHint, GridHints, FooterBox }
 }
 </script>
 
@@ -68,9 +69,13 @@ export default {
       <GridHints />
     </section>
   </div>
+  
+  <section>
+    <div class="space"></div>
+  </section>
 
-  <footer>
-
+  <footer id="footer-container">
+    <FooterBox />
   </footer>
 </template>
 
