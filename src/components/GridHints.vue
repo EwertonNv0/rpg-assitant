@@ -24,11 +24,9 @@ export default {
                 Com o <code>X</code> representando a largura e o <code>Y</code> a altura.
             </p>
             <p>Exemplo:</p>
-        </div>
-
-
-
-        <div>
+            <div>
+                <img src="../assets/imgs-grid/grid.png" alt="">
+            </div>
             <p class="extra">
                 <strong class="attention">Atenção:</strong> Assim como a iniciativa, cada canal tem seu proprio grid, iniciar um grid <strong>apaga imediatamente</strong> o grid anterior.
             </p>
@@ -42,9 +40,10 @@ export default {
                 &emsp;Para adicionar participantes envie a sigla do participante <strong>(máx. 2 caráteres)</strong> seguido por <code>';'</code> e após isto a letra e o número referente as coordenadas.
             </p>
             <p>Exemplo:</p>
+            <div>
+                <img src="../assets/imgs-grid/add-par.png" alt="">
+            </div>
         </div>
-
-
 
         <div>
             <h2>
@@ -53,9 +52,10 @@ export default {
             <p>
                 &emsp;Para mudar um participante de lugar basta reenviar o comando acima com as novas coordenadas.
             </p>
+            <div>
+                <img src="../assets/imgs-grid/move-par.png" alt="">
+            </div>
         </div>
-
-
 
         <div>
             <h2>
@@ -64,9 +64,10 @@ export default {
             <p>
                 &emsp;Para retirar um participante basta colocar 0 na coordenada.
             </p>
+            <div>
+                <img src="../assets/imgs-grid/retira-par.png" alt="">
+            </div>
         </div>
-
-
 
         <div>
             <h2>
@@ -75,6 +76,9 @@ export default {
             <p>
                 &emsp;Para ver o grid a qualquer momento envie: <code>.exibegrid</code> .
             </p>
+            <div>
+                <img src="../assets/imgs-grid/exibe.png" alt="">
+            </div>
         </div>
     </article>
 </template>
