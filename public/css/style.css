@@ -131,6 +131,9 @@ table {
 code {
     font-size: 1rem;
     white-space: nowrap;
+	background-color: #3E3E3E70;
+	padding: 0 .3rem;
+	border-radius: 2px;
 }
 
 /* ----------------------------------------------- */
