@@ -1,3 +1,7 @@
+# Objective
+
+## The site's function is about to explain the commands of a Discord bot.
+
 # role
 
 ## Project setup
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
